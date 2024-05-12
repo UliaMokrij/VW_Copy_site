@@ -1,0 +1,593 @@
+body {
+    flex: none;
+}
+
+.first_block {
+    background-image: url(img/VW_HERO_SS24Sunglasses.jpg);
+    background-size: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.logo {
+    display: inline;
+    align-items: center;
+    width: 190px;
+    margin: 0px 36.5%;
+}
+
+.burger {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.button {
+    width: fit-content;
+    display: flex;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+    background-color: #ffffff00;
+    border: none;
+}
+
+.button2 {
+    width: 20px;
+    display: flex;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-weight: 550;
+    font-size: 14px;
+    background-color: #ffffff00;
+    border: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
+
+.shadow {
+    padding: 10px;
+    background: linear-gradient(0deg, rgba(115, 115, 115, 0) 0%, rgba(0, 0, 0, 0.1) 36.6%, rgba(0, 0, 0, 0.22) 76.1%);
+}
+
+.summer {
+    margin-top: 450px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.colection {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 540;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 38%;
+    color: #fff;
+}
+
+.colection:hover {
+    border-bottom: 2px solid #ffffff;
+    width: fit-content;
+}
+
+.blue_text {
+    margin-top: 80px;
+    margin-bottom: 90px;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    color: #324ea8;
+    margin-left: 1550px;
+    width: 800px;
+}
+
+.vw {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.featured_products {
+    margin: 25px;
+}
+
+.products {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.acard {
+    text-decoration: none;
+}
+
+.card {
+    width: 340px;
+    display: inline;
+    margin: 20px;
+}
+
+.text-card {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+    flex: none;
+    text-transform: uppercase;
+}
+
+.price-card {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+    flex: none;
+}
+
+.card-img {
+    width: 340px;
+    display: block;
+    margin: 0 auto;
+}
+
+.container-cards {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+.swear {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.women,
+.man {
+    width: 730px;
+}
+
+.women:hover,
+.man:hover {
+    opacity: 0.5;
+}
+
+.womenswear,
+.manswear {
+    text-decoration: none;
+    font-size: 35px;
+    color: #ffffff;
+    display: flex;
+    margin-left: 200px;
+    margin-top: -600px;
+    position: absolute;
+    font-family: "Inter", sans-serif;
+}
+
+
+.news_container {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.news {
+    font-size: 17px;
+    display: inline;
+}
+
+.date {
+    font-size: 17px;
+    display: inline;
+    margin-left: 450px;
+    color: #616161;
+}
+
+.text {
+    font-size: 35px;
+    display: inline;
+    position: relative;
+    top: 140px;
+}
+
+.hode {
+    font-size: 37px;
+    display: inline;
+    position: relative;
+    top: 50px;
+}
+
+.read {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    display: inline;
+    position: relative;
+    top: 240px;
+    font-family: "Inter", sans-serif;
+}
+
+.read:hover,
+.more:hover {
+    border-bottom: 2px solid #000000;
+}
+
+.more {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    display: inline;
+    position: relative;
+    top: 240px;
+    font-family: "Inter", sans-serif;
+    left: 50px;
+}
+
+.ode {
+    width: 50%;
+    margin-left: 100px;
+    float: right;
+}
+
+.sunglasses {
+    background-color: #422e7d;
+    height: 750px;
+    margin-top: 500px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+}
+
+.sg {
+    width: 50%;
+    height: 750px;
+    float: left;
+}
+
+.sgp {
+    position: relative;
+    padding-top: 260px;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.sga {
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.sga:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.video-bg {
+    margin-top: 120px;
+    width: 100%;
+}
+
+.vp {
+    padding-top: 170px;
+    padding-left: 500px;
+    position: absolute;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 80px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.va {
+    position: absolute;
+    padding-top: 400px;
+    padding-left: 730px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+
+}
+
+.va:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.corset {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-right: 60px;
+    background-color: #A34400;
+    height: 920px;
+}
+
+.ct {
+    width: 50%;
+    float: left;
+    height: 920px;
+}
+
+.ctp {
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    padding-top: 300px;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+}
+
+.to {
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.text2 {
+    left: 40px;
+    padding-right: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    font-size: 17px;
+    font-family: "Inter", sans-serif;
+}
+
+.cta {
+    margin-left: 197px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+
+}
+
+.cta:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.ni {
+    text-decoration: none;
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.card-img2 {
+    flex: none;
+    width: 320px;
+    height: 320px;
+    margin-left: 20px;
+}
+
+.container-cards2 {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+
+footer {
+    margin-top: 150px;
+}
+
+.container3 {
+    flex-direction: row;
+}
+
+.img31 {
+    padding: 0px 170px;
+    width: 30px;
+}
+
+.img3 {
+    padding: 0px 170px;
+    width: 30px;
+    bottom: 20px;
+}
+
+.ip {
+    display: inline;
+    width: 100px;
+    padding: 65px;
+    font-family: "Inter", sans-serif;
+
+}
+
+hr {
+    margin: 80px 25px;
+}
+
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 55%;
+    position: absolute;
+}
+
+.vert-menu {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    width: 350px;
+    margin-top: 40px;
+}
+
+.vert-menu0 {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.footer-elements-first {
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-elements {
+    margin-left: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #686868;
+    text-decoration: none;
+}
+
+.footer-elements:hover {
+    border-bottom: 2px solid #011F3A;
+    width: fit-content;
+}
+
+.find {
+    position: relative;
+    left: 780px;
+    top: 40px;
+}
+
+.hp {
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.ic {
+    width: 20px;
+    padding: 10px;
+}
+
+.h2p {
+    position: absolute;
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 1050px;
+    margin-top: -54px;
+}
+
+.input-container {
+    margin-top: -45px;
+    margin-left: 1050px;
+    position: relative;
+    width: 400px;
+}
+
+.input-container input[type="text"] {
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 5px 0;
+    background-color: transparent;
+    outline: none;
+}
+
+.input-container .label {
+    position: absolute;
+    font-family: "Readex Pro", sans-serif;
+    top: 0;
+    left: 0;
+    color: #202020;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.input-container input[type="text"]:focus~.label,
+.input-container input[type="text"]:valid~.label {
+    top: -20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.input-container .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #666666;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+}
+
+.input-container input[type="text"]:focus~.underline,
+.input-container input[type="text"]:valid~.underline {
+    transform: scaleX(1);
+}
+
+.s {
+    position: absolute;
+    font-size: 30px;
+    margin-left: 1420px;
+    margin-top: -5px;
+}
+
+.pm {
+    font-family: "Readex Pro", sans-serif;
+    display: inline;
+    font-size: 12px;
+    color: #616161;
+}
+
+.payment-methods {
+    margin-left: 20px;
+    margin-top: 550px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pmi1 {
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.pmi2 {
+    margin-left: 40px;
+}
+
+.vw0 {
+    font-size: 12px;
+    position: relative;
+    margin-top: -20px;
+    justify-content: flex-end;
+    display: flex;
+    font-family: "Readex Pro", sans-serif;
+}
